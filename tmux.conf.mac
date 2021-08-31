@@ -9,7 +9,8 @@ set -g default-command "exec /bin/zsh"
 set -g clock-mode-style 24
 set -g focus-events on
 set-window-option -g xterm-keys on # to make ctrl-arrow, etc. work
-#set -g renumber-windows on        # enable when install newer version
+set-window-option -g aggressive-resize on
+set -g renumber-windows on        # enable when install newer version
 
 # rebind interact key
 #set -g prefix C-a
@@ -54,8 +55,11 @@ bind o rotate-window
 bind r source-file ~/.tmux.conf; display-message "keybinds reloaded"
 
 # easier splits
-bind s split-window -h
-bind v split-window -v
+bind v split-window -h
+bind s split-window -v
+
+# connect a pane to another window
+bind @ command-prompt -p "join pane to:" "join-pane -t ':%%'"
 
 # monitoring functionality
 bind m setw monitor-activity on
@@ -64,9 +68,9 @@ bind M setw monitor-activity off
 # Copy mode
 bind c copy-mode
 bind p paste-buffer
-bind -T copy-mode-vi v begin-selection
-bind -T copy-mode-vi y copy-selection
-bind -T copy-mode-vi Escape cancel
+#bind -T copy-mode-vi v begin-selection
+#bind -T copy-mode-vi y copy-selection
+#bind -T copy-mode-vi Escape cancel
 
 # status bar (powerline format)
 set -g status-left-length 52
