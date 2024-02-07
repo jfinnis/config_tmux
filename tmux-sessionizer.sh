@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find ~/Documents/personal ~/Documents/dev ~/Documents/projects -mindepth 1 -maxdepth 1 -type d | fzf --delimiter / --with-nth -1)
+    selected=$(find ~/Documents/personal ~/.config ~/Documents/dev ~/Documents/projects -mindepth 1 -maxdepth 1 -type d | fzf --delimiter / --with-nth -1)
 fi
 
 if [[ -z $selected ]]; then
