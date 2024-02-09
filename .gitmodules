@@ -4,3 +4,6 @@
 [submodule "plugins/tmux-sidebar"]
 	path = plugins/tmux-sidebar
 	url = https://github.com/tmux-plugins/tmux-sidebar
+[submodule "plugins/tmux-power-zoom"]
+	path = plugins/tmux-power-zoom
+	url = https://github.com/jaclu/tmux-power-zoom
