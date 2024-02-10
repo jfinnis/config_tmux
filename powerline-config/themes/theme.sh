@@ -83,7 +83,7 @@ fi
 
 if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
-		"tmux_session_info #477284 #0E1517 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 238 252 " \
+		"tmux_session_info #477284 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 238 252 " \
 		# "hostname 33 0" \
 		# "ifstat 30 255" \
 		# "ifstat_sys 30 255" \
