@@ -1,5 +1,3 @@
-*Instructions
-* ln -s ~/$REPO/tmux.conf .tmux.conf 
+# Instructions
 
-*Requirements
-* tms - [sessionizer script](https://github.com/jrmoulton/tmux-sessionizer/tree/main)
+* ln -s ~/$REPO/tmux.conf .tmux.conf 
