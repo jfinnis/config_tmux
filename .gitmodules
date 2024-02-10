@@ -7,3 +7,6 @@
 [submodule "plugins/tmux-power-zoom"]
 	path = plugins/tmux-power-zoom
 	url = https://github.com/jaclu/tmux-power-zoom
+[submodule "plugins/tmux-powerline"]
+	path = plugins/tmux-powerline
+	url = https://github.com/erikw/tmux-powerline
