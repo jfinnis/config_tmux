@@ -9,4 +9,4 @@
 	url = https://github.com/jaclu/tmux-power-zoom
 [submodule "plugins/tmux-powerline"]
 	path = plugins/tmux-powerline
-	url = https://github.com/erikw/tmux-powerline
+	url = https://github.com/jfinnis/tmux-powerline
