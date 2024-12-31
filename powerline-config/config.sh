@@ -5,7 +5,7 @@
 
 # General {
 	# Show which segment fails and its exit code.
-	export TMUX_POWERLINE_DEBUG_MODE_ENABLED="false"
+	export TMUX_POWERLINE_DEBUG_MODE_ENABLED="true"
 	# Use patched font symbols.
 	export TMUX_POWERLINE_PATCHED_FONT_IN_USE="true"
 
@@ -197,7 +197,7 @@
 
 # time.sh {
 	# date(1) format for the time. Americans might want to have "%I:%M %p".
-	export TMUX_POWERLINE_SEG_TIME_FORMAT="%H:%M"
+	export TMUX_POWERLINE_SEG_TIME_FORMAT="%I:%M %p"
 	# Change this to display a different timezone than the system default.
 	# Use TZ Identifier like "America/Los_Angeles"
 	export TMUX_POWERLINE_SEG_TIME_TZ=""
