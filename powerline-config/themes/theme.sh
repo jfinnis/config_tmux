@@ -83,8 +83,9 @@ fi
 
 if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
-		"time 235 136 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}" \
-		"date_day 235 136" \
+		"date_day 235 136 - 0 0 right_disable" \
+		"date 235 136 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN} 0 0 left_disable" \
+		"time 235 136 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}" \
 		"tmux_session_info #477284 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 238 252 " \
 		# "hostname 33 0" \
 		# "ifstat 30 255" \
