@@ -84,18 +84,18 @@ fi
 if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
 		"date_day 235 136 - 0 0 right_disable" \
-		"date 235 136 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN} 0 0 left_disable" \
-		"time 235 136 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}" \
-		"tmux_session_info #477284 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 238 252 " \
+		"date 235 136 - 0 0 both_disable" \
+		"time 235 136 - 0 0 both_disable" \
+		#"tmux_session_info #477284 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 238 252 " \
 		# "hostname 33 0" \
 		# "ifstat 30 255" \
 		# "ifstat_sys 30 255" \
 		# "lan_ip 24 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}" \
 		# "wan_ip 24 255" \
-		"vcs_branch #33353D 252 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 right_disable" \
-		"vcs_compare #33353D 33 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 both_disable separator_disable" \
-		"vcs_staged #33353D 28 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 both_disable separator_disable" \
-		"vcs_modified #33353D 160 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 left_disable" \
+		#"vcs_branch #33353D 252 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 right_disable" \
+		#"vcs_compare #33353D 33 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 both_disable separator_disable" \
+		#"vcs_staged #33353D 28 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 both_disable separator_disable" \
+		#"vcs_modified #33353D 160 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 left_disable" \
 		#"vcs_others 245 0" \
 	)
 fi
@@ -105,13 +105,13 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		#"earthquake 3 0" \
 		# "pwd 89 211" \
 		# "macos_notification_count 29 255" \
-		# "mailcount 5 255" \
 		"now_playing 234 37" \
 		# "cpu 240 136" \
 		# "load 237 167" \
 		# "tmux_mem_cpu_load 234 136" \
 		# "air ${TMUX_POWERLINE_SEG_AIR_COLOR} 255" \
 		"weather #477284 255" \
+		"mailcount_gmail 5 255" \
 		# "xkb_layout 125 117" \
 		# "date_day 235 136" \
 		# "date 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
