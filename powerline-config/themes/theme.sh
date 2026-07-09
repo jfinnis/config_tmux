@@ -85,7 +85,9 @@ if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
 		"date_day 235 136 - 0 0 right_disable" \
 		"date 235 136 - 0 0 both_disable" \
-		"time 235 136 - 0 0 both_disable" \
+		"time 235 136 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 0 0 left_disable" \
+		#"slackcount 54 136" \
+		"mailcount_gmail 24 255" \
 		#"tmux_session_info #477284 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 238 252 " \
 		# "hostname 33 0" \
 		# "ifstat 30 255" \
@@ -111,7 +113,6 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		# "tmux_mem_cpu_load 234 136" \
 		# "air ${TMUX_POWERLINE_SEG_AIR_COLOR} 255" \
 		"weather #477284 255" \
-		"mailcount_gmail 24 255" \
 		# "xkb_layout 125 117" \
 		# "date_day 235 136" \
 		# "date 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
