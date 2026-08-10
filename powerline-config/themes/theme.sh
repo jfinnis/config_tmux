@@ -94,11 +94,11 @@ if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 		# "ifstat_sys 30 255" \
 		# "lan_ip 24 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}" \
 		# "wan_ip 24 255" \
-		#"vcs_branch #33353D 252 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 right_disable" \
-		#"vcs_compare #33353D 33 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 both_disable separator_disable" \
-		#"vcs_staged #33353D 28 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 both_disable separator_disable" \
-		#"vcs_modified #33353D 160 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 left_disable" \
-		#"vcs_others 245 0" \
+		"vcs_branch #33353D 252 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 right_disable" \
+		"vcs_compare #33353D 33 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 both_disable separator_disable" \
+		"vcs_staged #33353D 28 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 both_disable separator_disable" \
+		"vcs_modified #33353D 160 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD} 252 235 left_disable" \
+		"vcs_others 245 0" \
 	)
 fi
 
